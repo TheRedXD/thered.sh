@@ -1,0 +1,54 @@
+@import url("/iosevka/font-stripped.css");
+@import url("/iosevkaaile/font-stripped.css");
+@import url("/github-dark.min.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    background-color: #111420;
+    background-image: radial-gradient(#22334440 1px, transparent 1px);
+    background-size: 32px 32px;
+    color: #ddddffc0;
+    ::-webkit-scrollbar {
+        width: 10px;
+        background-color: rgba(255, 255, 255, 0.05);
+    }
+
+    ::-webkit-scrollbar-track {
+        border-radius: 10px;
+        background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 10px;
+        border: 2px solid transparent;
+        background-clip: content-box;
+        min-height: 40px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: rgba(255, 255, 255, 0.2) !important;
+        border: 2px solid transparent;
+        background-clip: content-box;
+        cursor: pointer;
+    }
+
+    ::-webkit-scrollbar-thumb:active {
+        background: rgba(255, 255, 255, 0.3) !important;
+        border: 2px solid transparent;
+        background-clip: content-box;
+    }
+}
+
+body {
+    font-family: "Iosevka Extended Light";
+}
